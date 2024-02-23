@@ -53,14 +53,14 @@ def update_status_in_excel(filename, email_statuses):
         print("Error updating status:", e)
 
 if __name__ == "__main__":
-    subject = "mai aa gaya"
+    subject = "Test Email"
     message = "This is a test email sent from my tool."
-    from_email = "data@buydatabase.online"  # Your Titan Email
+    from_email = "mail@domain.com"  # Your Titan Email
 
     smtp_server = "smtp.titan.email"  # Titan Email SMTP server
     smtp_port = 587
-    smtp_username = "data@buydatabase.online"  # Your Titan Email
-    smtp_password = "#f544Oy1LL^5"  # Your Titan Email password or app-specific password
+    smtp_username = "enter username"  # Your Titan Email
+    smtp_password = "enter password"  # Your Titan Email password or app-specific password
 
     excel_filename = "emails.xlsx"
     to_emails = get_emails_from_excel(excel_filename)
